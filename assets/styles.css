@@ -1,0 +1,161 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+/* Header Styles */
+
+.header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.header *:last-child {
+    margin-left: auto;
+}
+
+.header img {
+    height: 35px;
+    width: auto;
+    margin-right: 15px;
+}
+
+/* Navigation Styles */
+
+.header > .navigation {
+    margin-right: 5px;
+}
+
+.header > .navigation > .fancy-text {
+    color: goldenrod;
+    margin: 2px;
+}
+
+.header > .navigation > .nav-buttons {
+    display: flex;
+}
+
+.header > .navigation > .nav-buttons a {
+    margin: 0px 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+/* Dropdown Thingy */
+
+.header > .dropdown {
+    display: flex;
+    align-items: center;
+    color: grey;
+    margin-top: 20px; /* Not very good, but easy to implement.*/
+}
+
+.header > .dropdown p {
+    font-weight: bold;
+    margin: 0px;
+    margin-right: 5px;
+}
+
+/* Account Buttons */
+
+.header > .account-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header > .account-buttons > .acc-button {
+    color: white;
+    background-color: #36383f;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.header > .account-buttons > .acc-button i {
+    color: limegreen;
+}
+
+.header > .account-buttons i {
+    color: darkgray;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+/* Content Styles */
+
+.content {
+    display: grid;
+    grid-template-columns: 1.35fr 1fr;
+    background-color: #202228;
+    color: white;
+}
+
+.content > .projects-info .projects-text {
+    font-weight: bold;
+}
+
+.content > .projects-info img {
+    height: 490px;
+}
+
+.content > .description {
+    padding: 50px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 0.5fr;
+}
+
+.content > .description > .desc-intro {
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+.content > .description > .desc-extra {
+    margin-top: 20px;
+    font-size: 2em;
+    font-weight: 300;
+    color: gray;
+}
+
+.content > .description > .desc-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content > .description > .desc-buttons a {
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+
+.footer > .services {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+.footer > .services > .service {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #36383f;
+    border: 1px solid gray;
+    color: white;
+}
+
+.footer > .services > .service > .service-type {
+    font-size: 1.5em;
+    font-weight: 500;
+}
